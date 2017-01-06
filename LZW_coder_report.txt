@@ -1,0 +1,31 @@
+LZW binary archive coder
+s - text (binary code)
+s=11111001011100010101010111
+to archive: 3,1
+to archive: 4,1
+to archive: 2,0
+to archive: 3,0
+to archive: 5,0
+to archive: 6,1
+to archive: 2,1
+to archive: 10,0
+to archive: 7,1
+to archive: 3,1
+Dictionary
+1: 
+2: 0
+3: 1
+4: 11
+5: 111
+6: 00
+7: 10
+8: 1110
+9: 001
+10: 01
+11: 010
+12: 101
+13: 11
+Archive readable: 
+011,1 100,1 010,0 011,0 0101,0 0110,1 0010,1 1010,0 0111,1 0011,1 
+Archive binary:
+0111100101000110010100110100101101000111100111
